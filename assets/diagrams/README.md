@@ -17,29 +17,29 @@ This directory contains visual assets and diagrams that support the Netflix Indi
 ## Available Diagrams
 
 ### 1. Market Analysis Diagrams
-- **Competitive Landscape Map:** Visual representation of streaming market players
-- **Market Share Distribution:** Pie chart showing current market shares
-- **Growth Trend Analysis:** Line charts showing market growth over time
+- **Competitive Landscape Map:** Visual representation of streaming market players and positioning
+- **Market Share Distribution:** Current competitive landscape analysis
+- **Growth Trend Analysis:** Market evolution and opportunity identification
 
 ### 2. User Journey Diagrams
-- **Customer Journey Map:** Step-by-step user experience flow
-- **User Persona Profiles:** Visual representations of target user segments
+- **User Journey Map:** Complete user experience flow with pain points and opportunities
+- **User Persona Profiles:** Target user segments and their characteristics
 - **Touchpoint Analysis:** Key interaction points in user journey
 
 ### 3. Product Strategy Diagrams
-- **Feature Prioritization Matrix:** RICE scoring visualization
-- **Product Roadmap:** Timeline of planned features and initiatives
+- **Feature Prioritization Matrix:** RICE scoring visualization with implementation roadmap
+- **Product Roadmap:** Timeline of planned features and strategic initiatives
 - **Value Proposition Canvas:** Visual representation of value propositions
 
 ### 4. Financial Model Diagrams
-- **Revenue Projection Charts:** Financial forecasting visualizations
-- **Cost Structure Analysis:** Breakdown of operational costs
-- **ROI Analysis:** Return on investment calculations
+- **Revenue Projection Model:** Financial forecasting with subscriber growth and ARPU evolution
+- **Cost Structure Analysis:** Breakdown of operational costs and profitability
+- **ROI Analysis:** Return on investment calculations and break-even analysis
 
 ### 5. Framework Diagrams
-- **OKR Structure:** Visual representation of objectives and key results
-- **Jobs-to-be-Done Framework:** Customer job mapping diagrams
-- **A/B Testing Flow:** Experimental design visualization
+- **OKR Framework Structure:** Visual representation of objectives and key results with progress tracking
+- **Jobs-to-be-Done Framework:** Customer job mapping with pain points and gain creators
+- **A/B Testing Flow:** Experimental design visualization and methodology
 
 ## Usage Guidelines
 

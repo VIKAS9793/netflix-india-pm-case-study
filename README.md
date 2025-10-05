@@ -44,7 +44,8 @@ netflix-india-pm-case-study/
 ├── research/
 │   ├── full-case-study.md (complete analysis with audit)
 │   ├── executive-summary.md (5-minute read)
-│   └── data-quality-audit.md (lessons on research integrity)
+│   ├── data-quality-audit.md (lessons on research integrity)
+│   └── netflix-india-comprehensive-research.md (comprehensive analysis)
 ├── frameworks/
 │   ├── rice-prioritization-template.md
 │   ├── retention-cohort-analysis.md
@@ -56,7 +57,8 @@ netflix-india-pm-case-study/
 │   ├── verified-sources.md (all citations)
 │   └── assumption-log.md (what's estimated vs. verified)
 └── assets/
-    └── diagrams/ (if applicable)
+    └── diagrams/
+        └── README.md (diagram documentation)
 ```
 
 ---
@@ -68,10 +70,11 @@ netflix-india-pm-case-study/
 2. Study `research/data-quality-audit.md` to learn research integrity
 3. Explore `frameworks/` for reusable PM templates
 4. Read `research/full-case-study.md` for complete analysis
+5. Review `research/netflix-india-comprehensive-research.md` for detailed insights
 
 ### For Educators
 - Use `frameworks/` as teaching materials
-- Assign `data-quality-audit.md` to teach critical thinking
+- Assign `research/data-quality-audit.md` to teach critical thinking
 - Adapt templates for other case studies
 - Fork and modify for your curriculum
 
@@ -145,7 +148,7 @@ This is a learning resource. Contributions welcome for:
 - Adding educational annotations
 - Suggesting additional PM methodologies
 
-See `CONTRIBUTING.md` for guidelines.
+See the repository issues section for contribution guidelines.
 
 ---
 

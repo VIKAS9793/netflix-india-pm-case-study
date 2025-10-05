@@ -1,509 +1,343 @@
-# 🎬 Netflix India PM Case Study - Educational Framework
+# Netflix India PM Case Study - Educational Framework
 
-> **⚠️ CRITICAL DISCLAIMER: FOR EDUCATIONAL PURPOSES ONLY**
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/VIKAS9793/netflix-india-pm-case-study)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
+[![GitHub contributors](https://img.shields.io/github/contributors/VIKAS9793/netflix-india-pm-case-study)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
+[![Educational Purpose](https://img.shields.io/badge/Purpose-Educational-blue)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
+
+> **CRITICAL DISCLAIMER: FOR EDUCATIONAL PURPOSES ONLY**
 
 This repository contains a **hypothetical product management case study** created as a learning exercise by Vikas Sahani. It is **NOT** based on insider information, proprietary data, or any affiliation with Netflix, Inc.
 
-<div align="center">
+---
 
-### 📚 EDUCATIONAL CASE STUDY DISCLAIMER
+## Why This Matters
 
-</div>
+**If you're preparing for PM interviews:** Study how to structure product strategy documents, apply RICE scoring, and build validation plans.
 
-<table>
-<tr>
-<td>
+**If you're a new PM:** Learn to distinguish assumptions from facts, quantify confidence, and communicate uncertainty professionally.
 
-- 🎓 This is a simulated analysis for learning product management methodologies
-- 📊 All data, insights, and recommendations are hypothetical and for educational purposes only
-- 🔒 No confidential, proprietary, or insider information has been used
-- 🚫 This case study does not represent actual Netflix strategy or business decisions
-- 🌐 All market data is sourced from publicly available information only
+**If you're teaching PM:** Use these templates and audit process as practical exercises for students.
 
-</td>
-</tr>
-</table>
-
-> **📌 Not affiliated with Netflix, Inc. All trademarks are property of their respective owners.**
+**If you're a practitioner:** Adapt these frameworks to your own products and learn research methodology.
 
 ---
 
-## 📖 What This Is
+## Quick Start
 
-<details open>
-<summary><strong>Click to expand</strong></summary>
+### Learning Path
 
-An educational demonstration of:
+```
+1. Executive Summary (10 min) → 2. Data Quality Audit → 3. Frameworks → 4. Full Analysis
+```
 
-- 🔍 Product management research methodology
-- ✅ Data quality audit processes
-- 📈 Strategic framework application (RICE, JTBD, OKRs, North Star metrics)
-- 🎯 How to distinguish verified facts from assumptions
-- 📊 Quantifying confidence in product decisions
-- 🧪 Building validation plans before execution
+**Step 1:** Read `research/executive-summary.md` first  
+**Step 2:** Study `research/data-quality-audit.md` to learn research integrity  
+**Step 3:** Explore `frameworks/` for reusable PM templates  
+**Step 4:** Read `research/full-case-study.md` for complete analysis  
+**Step 5:** Review `research/netflix-india-comprehensive-research.md` for detailed insights
 
-</details>
+### For Different Audiences
 
-## ❌ What This Is NOT
+**Students / Learning PM:**
+- Focus on methodology over conclusions
+- Practice with framework templates
+- Study assumption tracking in `data-sources/assumption-log.md`
 
-<table>
-<tr>
-<td>
+**Educators:**
+- Use `frameworks/` as teaching materials
+- Assign data quality audit for critical thinking
+- Adapt templates for other case studies
 
-- ❌ Official Netflix strategy or internal data
-- ❌ Investment advice or business intelligence
-- ❌ Ready-to-execute recommendations
-- ❌ Suitable for commercial decision-making without independent validation
-- ❌ Claiming insider knowledge or proprietary information
-
-</td>
-</tr>
-</table>
+**Practitioners:**
+- Review methodology, not conclusions
+- Apply frameworks to your own context
+- Use as interview preparation material
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 netflix-india-pm-case-study/
-├── 📄 README.md (this file)
-├── 📜 LICENSE
-├── 📂 research/
-│   ├── 📝 full-case-study.md (complete analysis with audit)
-│   ├── ⚡ executive-summary.md (5-minute read)
-│   ├── 🔍 data-quality-audit.md (lessons on research integrity)
-│   └── 📊 netflix-india-comprehensive-research.md (comprehensive analysis)
-├── 📂 frameworks/
-│   ├── 🎯 rice-prioritization-template.md
-│   ├── 📈 retention-cohort-analysis.md
-│   ├── 💰 financial-model-template.xlsx
-│   ├── 🧪 ab-testing-guide.md
-│   ├── 🎯 okr-framework.md
-│   └── 💡 jobs-to-be-done-template.md
-├── 📂 data-sources/
-│   ├── ✅ verified-sources.md (all citations)
-│   └── 📋 assumption-log.md (what's estimated vs. verified)
-└── 📂 assets/
-    └── 📂 diagrams/
-        └── 📄 README.md (diagram documentation)
+├── README.md (this file)
+├── LICENSE
+├── CONTRIBUTING.md (contribution guidelines)
+├── research/
+│   ├── full-case-study.md (complete analysis with audit)
+│   ├── executive-summary.md (5-minute read)
+│   ├── data-quality-audit.md (lessons on research integrity)
+│   └── netflix-india-comprehensive-research.md (comprehensive analysis)
+├── frameworks/
+│   ├── rice-prioritization-template.md
+│   ├── retention-cohort-analysis.md
+│   ├── financial-model-template.xlsx
+│   ├── ab-testing-guide.md
+│   ├── okr-framework.md
+│   └── jobs-to-be-done-template.md
+├── data-sources/
+│   ├── verified-sources.md (all citations)
+│   └── assumption-log.md (what's estimated vs. verified)
+└── assets/
+    └── diagrams/
+        └── README.md (diagram documentation)
 ```
 
 ---
 
-## 🚀 Quick Start
+## What This Is
 
-### 🎓 For Students / Learning PM
+An educational demonstration of:
 
-```mermaid
-graph LR
-    A[📖 Start] --> B[⚡ Executive Summary]
-    B --> C[🔍 Data Quality Audit]
-    C --> D[📂 Explore Frameworks]
-    D --> E[📝 Full Case Study]
-    E --> F[📊 Comprehensive Research]
-```
+- Product management research methodology
+- Data quality audit processes
+- Strategic framework application (RICE, JTBD, OKRs, North Star metrics)
+- How to distinguish verified facts from assumptions
+- Quantifying confidence in product decisions
+- Building validation plans before execution
 
-1. **Step 1:** Read `research/executive-summary.md` first (10 min)
-2. **Step 2:** Study `research/data-quality-audit.md` to learn research integrity
-3. **Step 3:** Explore `frameworks/` for reusable PM templates
-4. **Step 4:** Read `research/full-case-study.md` for complete analysis
-5. **Step 5:** Review `research/netflix-india-comprehensive-research.md` for detailed insights
+## What This Is NOT
 
-### 👨‍🏫 For Educators
-
-<table>
-<tr>
-<td width="50%">
-
-**📚 Teaching Materials**
-- Use `frameworks/` as teaching materials
-- Assign `research/data-quality-audit.md` to teach critical thinking
-
-</td>
-<td width="50%">
-
-**🔧 Customization**
-- Adapt templates for other case studies
-- Fork and modify for your curriculum
-
-</td>
-</tr>
-</table>
-
-### 💼 For Practitioners
-
-> **💡 Pro Tip:** Focus on methodology, not conclusions
-
-- 🔍 Review methodology, not conclusions
-- 🎯 Apply frameworks to your own context
-- 💬 Use as interview preparation material
-- 🧪 Adapt validation plans for your products
+- Official Netflix strategy or internal data
+- Investment advice or business intelligence
+- Ready-to-execute recommendations
+- Suitable for commercial decision-making without independent validation
+- Claiming insider knowledge or proprietary information
 
 ---
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
 After studying this repository, you should understand:
 
-| # | Learning Outcome | Icon |
-|---|------------------|------|
-| 1 | **Data Integrity**: How to separate verified facts from assumptions | 🔒 |
-| 2 | **Confidence Quantification**: Using 0.00-1.00 scales for claims | 📊 |
-| 3 | **Research Audit**: How to identify and correct data quality issues | 🔍 |
-| 4 | **Framework Application**: RICE, JTBD, OKRs, cohort analysis, etc. | 🎯 |
-| 5 | **Validation Planning**: Building experiments before committing resources | 🧪 |
-| 6 | **Professional Communication**: Presenting uncertainty without undermining strategy | 💬 |
+| # | Learning Outcome | Category |
+|---|------------------|----------|
+| 1 | **Data Integrity**: How to separate verified facts from assumptions | Methodology |
+| 2 | **Confidence Quantification**: Using 0.00-1.00 scales for claims | Research |
+| 3 | **Research Audit**: How to identify and correct data quality issues | Quality Assurance |
+| 4 | **Framework Application**: RICE, JTBD, OKRs, cohort analysis, etc. | Tools |
+| 5 | **Validation Planning**: Building experiments before committing resources | Execution |
+| 6 | **Professional Communication**: Presenting uncertainty without undermining strategy | Communication |
 
 ---
 
-## 📊 Confidence Assessment
+## How to Adapt These Frameworks for Your Product
 
-> **Overall Document Confidence: 0.62/1.00**
+The real value of this case study is learning the methodology, not copying the conclusions. Here's how to apply these frameworks to your actual work:
 
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Confidence</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🎯 Strategic Frameworks</td>
-<td><code>0.85</code></td>
-<td>✅ Sound methodology</td>
-</tr>
-<tr>
-<td>📈 Verified Market Facts</td>
-<td><code>0.95</code></td>
-<td>✅ Properly sourced</td>
-</tr>
-<tr>
-<td>🔍 Competitive Analysis</td>
-<td><code>0.60</code></td>
-<td>⚠️ Analyst estimates</td>
-</tr>
-<tr>
-<td>👥 User Behavior Patterns</td>
-<td><code>0.45</code></td>
-<td>⚠️ [ASSUMPTION] based</td>
-</tr>
-<tr>
-<td>💰 Financial Projections</td>
-<td><code>0.40</code></td>
-<td>⚠️ [SCENARIO] modeling</td>
-</tr>
-</tbody>
-</table>
+### Step 1: Data Collection
+- Use the same verification checklist from `data-sources/assumption-log.md`
+- Distinguish between verified facts and assumptions in your research
+- Document confidence levels for each claim
 
-<div align="center">
+### Step 2: Framework Application
+- **RICE Scoring**: Replace Netflix India metrics with your product's actual data
+- **OKRs**: Adapt the objective-setting structure to your team's goals
+- **Cohort Analysis**: Use the template with your retention data
+- **A/B Testing**: Follow the experimental design principles
 
-| ✅ Appropriate for | ❌ Not appropriate for |
-|-------------------|----------------------|
+### Step 3: Validation Planning
+- Adapt experiment designs to your product context
+- Scale confidence scoring to your organization's risk tolerance
+- Build iterative validation before full commitment
+
+### Step 4: Communication
+- Present uncertainty professionally using confidence scores
+- Separate hypotheses from validated insights
+- Document assumptions explicitly for stakeholders
+
+---
+
+## Data Verification Status
+
+> **CORE LEARNING RESOURCE**: See `data-sources/assumption-log.md` for the complete methodology of how this case study separates facts from estimates. This document teaches critical research skills applicable to any PM analysis.
+
+### Overall Verification Level: 0.62/1.00
+
+| Component | Verification Level | Source Type |
+|-----------|-------------------|-------------|
+| **Strategic Frameworks** | High (0.85) | Published methodologies |
+| **Market Facts** | Very High (0.95) | Public filings, reports |
+| **Competitive Analysis** | Medium (0.60) | Analyst estimates |
+| **User Behavior Patterns** | Low (0.45) | Assumed from public behavior |
+| **Financial Projections** | Scenario-based (0.40) | Hypothetical modeling |
+
+### Appropriate Use
+
+| Appropriate for | Not appropriate for |
+|-----------------|---------------------|
 | Learning, discussion, framework practice | Production deployment, investment decisions |
 
-</div>
+---
+
+## Data Sources
+
+**All verified facts are cited in:** `data-sources/verified-sources.md`
+
+### Key Sources
+
+| Source Type | Examples |
+|-------------|----------|
+| Financial Data | Netflix investor relations (earnings calls) |
+| Market Events | Public merger announcements |
+| Industry Reports | FICCI-EY, Media Partners Asia |
+| Official Sources | Official company websites |
+
+**All assumptions are documented in:** `data-sources/assumption-log.md`
 
 ---
 
-## 🛠️ How to Use This Repository
+## How to Use This Repository
 
-### 🎓 Academic Use
+### Academic Use
 
-<table>
-<tr>
-<td>
-
-✅ **Permitted Uses:**
+**Permitted Uses:**
 - Case study for PM courses
 - Framework learning exercises
 - Critical thinking assignments
 - Research methodology examples
 
-</td>
-<td>
+**Citation Format:**
+> "Hypothetical educational case study by Vikas Sahani (2025)"
 
-📝 **Citation Format:**
-> "Hypothetical educational case study"
+### Professional Development
 
-</td>
-</tr>
-</table>
-
-### 💼 Professional Development
-
-<table>
-<tr>
-<td>
-
-✅ **Permitted Uses:**
+**Permitted Uses:**
 - Interview preparation
 - PM skill development
 - Portfolio demonstration (with context)
 - Team training workshops
 
-</td>
-<td>
-
-🏷️ **Framing:**
+**Framing:**
 > "Learning project demonstrating PM methodology"
 
-</td>
-</tr>
-</table>
+### Commercial Use
 
-### 🚫 Commercial Use
+**WARNING: The following uses are NOT permitted**
 
-> **⚠️ WARNING: The following uses are NOT permitted**
-
-<table>
-<tr>
-<td width="50%">
-
-❌ **Prohibited:**
+**Prohibited:**
 - Do NOT use for actual business decisions without validation
 - Do NOT present as official analysis to stakeholders
-
-</td>
-<td width="50%">
-
-❌ **Also Prohibited:**
 - Do NOT claim affiliation with Netflix or competitors
 - Do NOT use for investment/consulting purposes
 
-</td>
-</tr>
-</table>
-
 ---
 
-## 🤝 Contributing
+## Contributing
 
-<div align="center">
-
-### 💡 This is a learning resource. Contributions welcome!
-
-</div>
+This is a learning resource. Contributions welcome!
 
 **We accept contributions for:**
+- Correcting factual errors in verified data
+- Improving framework templates
+- Adding educational annotations
+- Suggesting additional PM methodologies
 
-- 🐛 Correcting factual errors in verified data
-- 📈 Improving framework templates
-- 📝 Adding educational annotations
-- 🎯 Suggesting additional PM methodologies
-
-> 📌 See the repository issues section for contribution guidelines.
-
----
-
-## 📚 Data Sources
-
-<table>
-<tr>
-<td>
-
-**📋 All verified facts are cited in:**
-`data-sources/verified-sources.md`
-
-</td>
-</tr>
-</table>
-
-**🔍 Key sources include:**
-
-| Source Type | Examples |
-|------------|----------|
-| 📊 Financial Data | Netflix investor relations (earnings calls) |
-| 🤝 Market Events | Public merger announcements |
-| 📈 Industry Reports | FICCI-EY, Media Partners Asia |
-| 🌐 Official Sources | Official company websites |
-
-> **📋 All assumptions are documented in:** `data-sources/assumption-log.md`
+**See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:**
+- How to submit corrections (with evidence)
+- Template for new framework contributions
+- Review process and timeline
+- Code of conduct for discussions
 
 ---
 
-## 📜 License
-
-<div align="center">
+## License
 
 ### Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 **CC BY-NC-SA 4.0**
 
-</div>
+**You are free to:**
+- **Share:** Copy and redistribute for educational purposes
+- **Adapt:** Remix and build upon the material
 
-<table>
-<tr>
-<td width="50%">
+**Under these terms:**
+- **Attribution:** Credit original author
+- **NonCommercial:** Not for commercial use
+- **ShareAlike:** Distribute derivatives under same license
 
-**✅ You are free to:**
-- 📤 **Share:** Copy and redistribute for educational purposes
-- 🔧 **Adapt:** Remix and build upon the material
-
-</td>
-<td width="50%">
-
-**📋 Under these terms:**
-- 👤 **Attribution:** Credit original author
-- 🚫 **NonCommercial:** Not for commercial use
-- 🔄 **ShareAlike:** Distribute derivatives under same license
-
-</td>
-</tr>
-</table>
-
-> 📄 See `LICENSE` file for full terms.
+See `LICENSE` file for full terms.
 
 ---
 
-## 📞 Contact
-
-<table>
-<tr>
-<td>
-
-**👤 Author:** Vikas Sahani  
-**🎯 Purpose:** Educational demonstration of PM research methodology  
-**💼 LinkedIn:** [www.linkedin.com/in/vikas-sahani-727420358](https://www.linkedin.com/in/vikas-sahani-727420358)  
-**📧 Email:** vikassahani17@gmail.com
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### ❓ Questions?
-
-**Open an issue or reach out directly.**
-
-</div>
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This case study uses public information and standard PM frameworks from:
 
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Contribution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>📖 Marty Cagan's "Inspired"</td>
-<td>Product vision frameworks</td>
-</tr>
-<tr>
-<td>📖 Melissa Perri's "Escaping the Build Trap"</td>
-<td>Outcomes focus methodology</td>
-</tr>
-<tr>
-<td>🎓 Reforge product frameworks</td>
-<td>RICE, retention analysis</td>
-</tr>
-<tr>
-<td>🎯 Industry standard methodologies</td>
-<td>OKRs, JTBD, cohort analysis</td>
-</tr>
-</tbody>
-</table>
+| Source | Contribution |
+|--------|--------------|
+| Marty Cagan's "Inspired" | Product vision frameworks |
+| Melissa Perri's "Escaping the Build Trap" | Outcomes focus methodology |
+| Reforge product frameworks | RICE, retention analysis |
+| Industry standard methodologies | OKRs, JTBD, cohort analysis |
 
-> **📌 All frameworks are cited and attributed appropriately.**
+All frameworks are cited and attributed appropriately.
 
 ---
 
-## 📅 Version History
+## Version History
 
-<table>
-<thead>
-<tr>
-<th>Version</th>
-<th>Status</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>v2.0</strong></td>
-<td>✅ Current</td>
-<td>Audit-corrected version with explicit assumption tagging</td>
-</tr>
-<tr>
-<td><strong>v1.0</strong></td>
-<td>❌ Superseded</td>
-<td>Original research (contained untagged assumptions)</td>
-</tr>
-</tbody>
-</table>
+| Version | Status | Description |
+|---------|--------|-------------|
+| **v2.0** | Current | Audit-corrected version with explicit assumption tagging |
+| **v1.0** | Superseded | Original research (contained untagged assumptions) |
+
+**Last Updated:** October 2025  
+**Status:** Educational case study - Active learning resource
 
 ---
 
-<div align="center">
+## Contact
 
-**📅 Last Updated:** October 2025  
-**🏷️ Status:** Educational case study - Active learning resource
+**Author:** Vikas Sahani  
+**Purpose:** Educational demonstration of PM research methodology  
+**LinkedIn:** [linkedin.com/in/vikas-sahani-727420358](https://www.linkedin.com/in/vikas-sahani-727420358)  
+**Email:** vikassahani17@gmail.com
 
-</div>
+**Questions?** Open an issue or reach out directly.
 
 ---
 
-## ⚖️ Legal Notice
-
-<details>
-<summary><strong>📜 COMPREHENSIVE LEGAL DISCLAIMER (Click to expand)</strong></summary>
-
-<br>
+## Legal Notice
 
 This repository is an independent educational project created by Vikas Sahani and is not endorsed by, affiliated with, or sponsored by Netflix, Inc., Amazon, Disney, Reliance Industries, or any other company mentioned herein.
 
-### 🎓 EDUCATIONAL USE ONLY:
+### EDUCATIONAL USE ONLY
 
 - This case study is created solely for educational and learning purposes
 - It demonstrates product management research methodologies and frameworks
 - All analysis, recommendations, and insights are hypothetical and simulated
 - This content is not suitable for commercial decision-making or investment purposes
 
-### 🔐 INTELLECTUAL PROPERTY:
+### INTELLECTUAL PROPERTY
 
 - All company names, product names, and trademarks are property of their respective owners
 - Content is used here for educational and analytical purposes only under fair use principles
 - No trademark infringement is intended
 - All sources are properly cited and attributed
 
-### 📊 DATA AND INFORMATION:
+### DATA AND INFORMATION
 
 - No confidential, proprietary, or insider information has been used in creating this content
 - All data is sourced from publicly available information only
 - Market estimates and projections are hypothetical and for demonstration purposes
 - No claims are made about actual company performance or strategies
 
-### ⚠️ LIABILITY DISCLAIMER:
+### LIABILITY DISCLAIMER
 
 - The author (Vikas Sahani) assumes no responsibility for any decisions made based on this educational content
 - This case study should not be used as a basis for business decisions without independent verification
 - Users are responsible for ensuring compliance with applicable laws and regulations
 - The author disclaims all liability for any damages arising from use of this educational material
 
-### ✅ COMPLIANCE STATEMENT:
+### COMPLIANCE STATEMENT
 
 - This educational case study complies with fair use principles for educational content
 - All content is original analysis and commentary on publicly available information
 - No reproduction of copyrighted material beyond fair use limits
 - Proper attribution and citation provided for all sources
 
-</details>
-
 ---
 
-<div align="center">
-
-**Made with 💡 for learning | 🎓 Educational Resource | 🌟 Open Source**
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-</div>
+**Made with care for learning | Educational Resource | Open Source**

@@ -1,0 +1,78 @@
+# Financial Model Template
+
+## Overview
+This Excel template provides a framework for building financial models for product management decisions, including revenue projections, cost analysis, and ROI calculations.
+
+## Template Structure
+
+### 1. Revenue Model
+- **User Growth:** Monthly/quarterly user acquisition
+- **Pricing Tiers:** Different subscription levels
+- **Conversion Rates:** Free to paid conversion
+- **Churn Rates:** Monthly subscription cancellations
+- **ARPU:** Average revenue per user
+
+### 2. Cost Model
+- **Content Costs:** Licensing and production expenses
+- **Infrastructure:** Technology and hosting costs
+- **Marketing:** Customer acquisition costs
+- **Operations:** Support and administrative costs
+- **Development:** Product development expenses
+
+### 3. Key Metrics
+- **LTV/CAC Ratio:** Lifetime value to customer acquisition cost
+- **Payback Period:** Time to recover acquisition costs
+- **Gross Margin:** Revenue minus direct costs
+- **Net Margin:** Revenue minus all costs
+- **ROI:** Return on investment calculations
+
+## Usage Instructions
+
+1. **Input Assumptions:** Fill in your specific business assumptions
+2. **Adjust Parameters:** Modify growth rates, pricing, and costs
+3. **Run Scenarios:** Test different business scenarios
+4. **Analyze Results:** Review key metrics and trends
+5. **Validate Assumptions:** Cross-check with market data
+
+## Example: Netflix India Model
+
+### Revenue Assumptions
+- **Starting Users:** 8M subscribers
+- **Growth Rate:** 25% annually
+- **Average Price:** $3.20/month
+- **Churn Rate:** 5% monthly
+
+### Cost Assumptions
+- **Content Cost:** 60% of revenue
+- **Infrastructure:** 15% of revenue
+- **Marketing:** 20% of revenue
+- **Operations:** 5% of revenue
+
+### Projected Results
+- **Year 1 Revenue:** $180M
+- **Year 2 Revenue:** $220M
+- **Year 3 Revenue:** $280M
+- **Break-even:** Month 18
+- **ROI:** 150% by Year 3
+
+---
+
+## Legal and Compliance Notice
+
+**COMPREHENSIVE DISCLAIMER:**
+
+This template is an educational case study created by Vikas Sahani for learning product management methodologies. It is not affiliated with, endorsed by, or sponsored by Netflix, Inc. or any other company mentioned herein.
+
+**EDUCATIONAL USE ONLY:**
+- This template is created solely for educational and learning purposes
+- All data, insights, and recommendations are hypothetical and simulated
+- No confidential, proprietary, or insider information has been used
+- This content is not suitable for commercial decision-making or investment purposes
+
+**Contact Information:**
+- **Author:** Vikas Sahani
+- **Email:** vikassahani17@gmail.com
+- **LinkedIn:** [www.linkedin.com/in/vikas-sahani-727420358](https://www.linkedin.com/in/vikas-sahani-727420358)
+- **Purpose:** Educational demonstration of PM research methodology
+
+*This template is for educational purposes. Adapt based on your specific business model and market conditions.*

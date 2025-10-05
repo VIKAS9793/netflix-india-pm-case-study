@@ -1,10 +1,16 @@
 # Netflix India PM Case Study - Educational Framework
 
+<div align="center">
+
+![Project Banner](https://raw.githubusercontent.com/VIKAS9793/netflix-india-pm-case-study/main/assets/banner.png)
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/VIKAS9793/netflix-india-pm-case-study)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
 [![GitHub contributors](https://img.shields.io/github/contributors/VIKAS9793/netflix-india-pm-case-study)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
 [![Educational Purpose](https://img.shields.io/badge/Purpose-Educational-blue)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
 [![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/VIKAS9793/netflix-india-pm-case-study)
+
+</div>
 
 > **CRITICAL DISCLAIMER: FOR EDUCATIONAL PURPOSES ONLY**
 
